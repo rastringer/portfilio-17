@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	font-size: 12px;
+	opacity: 0.9;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+#about-head {
+	margin-top: 3rem;
+}
+
+#skills {
+  margin-bottom: 3rem;
+}
+
+
+
+/*projects*/
+h3 {
+  font-size: 2em;
+}
+
+#projects {
+  background-color: #eee;
+}
+
+#projects-start {
+  margin-top: 3rem;
+}
+
+.project-image {
+  max-height: 300px;
+  max-width: 400px;
+}
+
+.projects-showcase {
+  margin-bottom: 5rem;
+}
+
+/*about*/
+h3 {
+  font-size: 2em;
+}
+
+
+.projects-showcase {
+  margin-bottom: 5rem;
+}
