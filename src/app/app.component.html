@@ -1,17 +1,41 @@
 <!-- routerLink="/projects" routerLinkActive="active" 
 routerLink="/about" routerLinkActive="active" 
  -->
+
+<header>
 <nav class="navbar">
+  <div class="thirteen columns">
+    <nav class="main-nav">
+      <ul class="main-nav">                            
+        <li class="navbar-item">
+          <a pageScroll href="#contact" class="navbar-link">Connect</a>
+        </li>
+        <li class="navbar-item">
+          <a href="../../assets/Robin_Stringer_Resume_WD_ML_BT.pdf" class="navbar-link">Resume</a>
+        </li>
+        <li class="navbar-item">
+          <a pageScroll href="#projects-start" class="navbar-link">Projects</a>
+        </li>
+        <li class="navbar-item">
+          <a pageScroll href="#about-start" class="navbar-link">About</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </nav>
+</header>   
+
+<!-- <nav class="navbar">
   <div class="container">
     <ul class="navbar-list">
       <li class="navbar-item">
         <a pageScroll href="#contact" class="navbar-link">Connect</a>
       </li>
       <li class="navbar-item">
-        <a pageScroll href="#projects-start" class="navbar-link">Projects</a>
+        <a href="../../assets/Robin_Stringer_Resume_WD_ML_BT.pdf" class="navbar-link">Resume</a>
       </li>
       <li class="navbar-item">
-        <a href="../../assets/Robin_Stringer_Resume_WD_ML_BT.pdf" class="navbar-link">Resume</a>
+        <a pageScroll href="#projects-start" class="navbar-link">Projects</a>
       </li>
       <li class="navbar-item">
       <a pageScroll href="#about-start" class="navbar-link">About</a>
@@ -19,7 +43,7 @@ routerLink="/about" routerLinkActive="active"
     </ul>
   </div>
 </nav>
-
+ -->
 <div class="section hero">
   <div class="container">
     <div class="row">
@@ -37,26 +61,17 @@ routerLink="/about" routerLinkActive="active"
 <app-projects></app-projects>
 
 <!-- <router-outlet></router-outlet> -->
-
-  <div id="contact" class="section get-help">
+  <footer>
+    <div id="contact" class="section get-help">
     <div class="container">
       <h3 class="section-heading">Let's work together</h3>
-      <a class="button button-primary" href="mailto:ra1stringerATgmailDOTcom" onclick="this.href=this.href.replace(/AT/, '@').replace(/DOT/,'.')">Get in Touch</a>
+      <a class="button button-primary" href="mailto:ra1stringerATgmailDOTcom" onclick="this.href=this.href.replace(/AT/, '@').replace(/DOT/,'.')">E-Mail Me</a>
+      <div class="row">
+        <div class="twelve columns">
+          <a href="https://www.linkedin.com/in/robin-stringer"  target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com//rastringer"  target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
     </div>
-</div>
-
-<a href="mailto:infoATasfarasmovieDOTcom" onclick="this.href=this.href
-              .replace(/AT/,'@')
-              .replace(/DOT/,'.')"><img src="images/email.png"></a>
-
-<footer>
-<div class="container">
-<div class="row">
-<div class="twelve columns">
-  
-  <a href="https://www.linkedin.com/in/robin-stringer"  target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-  <a href="https://github.com//rastringer"  target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-</div>
-</div>
-</div>
-</footer>
+  </div>
+  </footer>

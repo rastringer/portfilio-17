@@ -5,3 +5,35 @@ h3 {
 #projects-head {
 	margin-top: 3rem;
 }
+
+/*projects*/
+h3 {
+  font-size: 2em;
+}
+
+#projects {
+  background-color: #eee;
+}
+
+#projects-start {
+  margin-top: 3rem;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+}
+
+.projects-showcase {
+  margin-bottom: 5rem;
+}
+
+/*about*/
+h3 {
+  font-size: 2em;
+}
+
+
+.projects-showcase {
+  margin-bottom: 5rem;
+}
