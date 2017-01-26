@@ -1,15 +1,22 @@
-h3 {
-	font-size: 2em;
+h1 {
+  font-size: 2em;
 }
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+
 
 #projects-head {
 	margin-top: 3rem;
 }
 
 /*projects*/
-h3 {
-  font-size: 2em;
-}
 
 #projects {
   background-color: #eee;
@@ -22,17 +29,12 @@ h3 {
 .project-image {
   height: 100%;
   width: 100%;
+  max-height: 270px;
 }
 
 .projects-showcase {
   margin-bottom: 5rem;
 }
-
-/*about*/
-h3 {
-  font-size: 2em;
-}
-
 
 .projects-showcase {
   margin-bottom: 5rem;

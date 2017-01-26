@@ -1,17 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-	font-size: 14px;
+	font-size: 12px;
 	opacity: 0.9;
+  font-family: 'Arvo', serif;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 1.5em;
 }
 
 a {
   text-decoration: none;
 }
 
-h3 {
-	font-size: 2em;
+h1 {
+  font-size: 1.8em;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
 
 /* Mobile first queries */
 

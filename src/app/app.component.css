@@ -1,12 +1,26 @@
+body { 
+  font-size: 12px;
+  opacity: 0.9;
+  font-family: 'Arvo', serif;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
 
 .section {
   padding: 8rem 0 7rem;
   text-align: center;
 }
-
-h1 { 
-  font-size: 34px;	
-  }
 
 .hero {
   background-size: cover;
@@ -15,7 +29,11 @@ h1 {
   margin-top: 5rem;
 }
 
-/*navbar*/
+.hero h1 {
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
 
 li a {
   text-decoration: none; 
@@ -65,11 +83,6 @@ a {
   color: #fffff;
   font-size: 0.9em;
 }
-
-h3 {
-  font-size: 2em;
-}
-
 
 footer {
   text-align: center;
