@@ -9,10 +9,12 @@ import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
+import { WritingComponent } from './writing/writing.component';
 
 const appRoutes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'writing', component: WritingComponent },
   { path: '',
     redirectTo: '/',
     pathMatch: 'full'
@@ -24,6 +26,7 @@ const appRoutes: Routes = [
     AppComponent,
     ProjectsComponent,
     AboutComponent,
+    WritingComponent,
   ],
   imports: [
     BrowserModule,
